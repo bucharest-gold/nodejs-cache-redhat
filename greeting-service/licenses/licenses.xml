@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <licenseSummary>
-    <project>nodejs-cache-greeting</project>
+    <project>nodejs-cache-redhat-greeting</project>
     <version>1.0.0</version>
     <license>Apache-2.0</license>
     <dependencies>

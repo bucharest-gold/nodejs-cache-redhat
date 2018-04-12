@@ -1,5 +1,5 @@
 {
-  "name": "nodejs-cache-greeting",
+  "name": "nodejs-cache-redhat-greeting",
   "version": "1.0.0",
   "author": "Red Hat, Inc.",
   "license": "Apache-2.0",
@@ -13,7 +13,7 @@
     "dependencyCheck": "szero . --ci",
     "start": "PORT=8080 node ./bin/www",
     "prepublish": "license-reporter report",
-    "openshift": "nodeshift --strictSSL=false --nodeVersion=8.x",
+    "openshift": "nodeshift --strictSSL=false --dockerImage=registry.access.redhat.com/rhoar-nodejs/nodejs-8",
     "postinstall": "license-reporter report && license-reporter save --xml licenses.xml"
   },
   "xo": {
