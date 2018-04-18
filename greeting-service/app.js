@@ -29,7 +29,7 @@ const app = express();
 // Adds basic health-check endpoints
 probe(app);
 
-const nameServiceHost = process.env.NAME_SERVICE_HOST || 'http://nodejs-cache-cute-name:8080';
+const nameServiceHost = process.env.NAME_SERVICE_HOST || 'http://nodejs-cache-redhat-cute-name:8080';
 
 const cacheClientOptions = {
   port: process.env.CACHE_PORT || 11222,

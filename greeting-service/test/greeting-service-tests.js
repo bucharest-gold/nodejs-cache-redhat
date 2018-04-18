@@ -22,7 +22,8 @@ test('greeting service test - nothing cached', t => {
         });
       }
     },
-    './lib/name-service-client': () => {
+    './lib/name-service-client': serviceHost => {
+      t.equal(serviceHost, 'http://nodejs-cache-redhat-cute-name:8080/api/name', 'should have the correct name service host name');
       return Promise.resolve('cool-project-name');
     }
   });
