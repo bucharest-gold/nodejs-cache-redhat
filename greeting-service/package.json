@@ -14,7 +14,7 @@
     "dependencyCheck": "szero . --ci",
     "start": "node .",
     "prepublish": "license-reporter report",
-    "openshift": "nodeshift --strictSSL=false --dockerImage=registry.access.redhat.com/rhoar-nodejs/nodejs-8",
+    "openshift": "nodeshift --strictSSL=false --dockerImage=registry.access.redhat.com/rhoar-nodejs/nodejs-10",
     "postinstall": "license-reporter report && license-reporter save --xml licenses.xml"
   },
   "main": "./bin/www",
