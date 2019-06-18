@@ -5,8 +5,8 @@
     <license>Apache-2.0</license>
     <dependencies>
         <dependency>
-            <packageName>body-parser</packageName>
-            <version>1.19.0</version>
+            <packageName>axios</packageName>
+            <version>0.19.0</version>
             <licenses>
                 <license>
                     <name>MIT License</name>
@@ -27,16 +27,6 @@
         <dependency>
             <packageName>kube-probe</packageName>
             <version>0.3.1</version>
-            <licenses>
-                <license>
-                    <name>Apache License 2.0</name>
-                    <url>http://www.apache.org/licenses/LICENSE-2.0</url>
-                </license>
-            </licenses>
-        </dependency>
-        <dependency>
-            <packageName>roi</packageName>
-            <version>0.18.0</version>
             <licenses>
                 <license>
                     <name>Apache License 2.0</name>
