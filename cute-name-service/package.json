@@ -8,9 +8,9 @@
     "lint": "xo",
     "coverage": "istanbul cover tape test/*.js",
     "ci": "npm run lint && npm run test",
-    "prepublish": "license-reporter report",
+    "prepublish": "license-reporter report --silent",
     "openshift": "nodeshift --strictSSL=false --dockerImage=registry.access.redhat.com/rhoar-nodejs/nodejs-10",
-    "postinstall": "license-reporter report && license-reporter save --xml licenses.xml",
+    "postinstall": "license-reporter report --silent && license-reporter save --xml licenses.xml --silent",
     "start": "node ."
   },
   "main": "./bin/www",
