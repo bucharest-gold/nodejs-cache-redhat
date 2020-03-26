@@ -2,6 +2,8 @@
 
 [![Greenkeeper badge](https://badges.greenkeeper.io/nodeshift-starters/nodejs-cache-redhat.svg)](https://greenkeeper.io/)
 
+https://access.redhat.com/documentation/en-us/red_hat_build_of_node.js/
+
 The greeting-service requires a running JDG server. In OpenShift, you
 can create one with `oc apply -f service.cache.yml`.
 
